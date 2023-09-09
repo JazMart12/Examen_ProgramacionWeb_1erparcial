@@ -7,7 +7,7 @@
   border: 1px solid white;
   box-shadow: 0 0 10px 1px #fffcfc;
   backdrop-filter: blur(15px);
-  color: #fefefe;
+  color: #000000;
   position: sticky;
   z-index: 1;
   top: 0;
@@ -50,7 +50,7 @@
   justify-content: center;
   align-items: center;
   font-family: 'Outfit', sans-serif;
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 15px;
 
 
@@ -65,7 +65,7 @@
  
 
 .barra-men1 .acti {
-  color: #101111;
+  color: #000000;
   font-weight: 900;
 }
 .barra-men1 li a {
@@ -193,15 +193,18 @@ to {opacity: 1}
 
 body {
 width: 100%;
-background-color: #2d2e32;
+background-color: #fcfdff;
 font-family: sans-serif;
 text-transform: capitalize;
+font-family: Verdana;
+            padding: 0px;
+            margin: 0px;
 }
 
 .title-first-name {
 padding: 10px;
 font-weight: 200;
-color: #fefefe;
+color: #000000;
 font-family: "Raleway", sans-serif;
 font-size: 10px;
 }
@@ -218,7 +221,7 @@ font-family: "Raleway", sans-serif;
 display: flex;
 flex-direction: row;
 padding: 80px 0;
-background-color: #25262a;
+background-color: #ababac;
 height: 100vh;
 }
 .footer-row{
@@ -231,7 +234,7 @@ height: 100vh;
 }
 .footer-links h4{
   font-size: 15px;
-  color: #FEFEFE;
+  color: #050505;
   margin-bottom: 25px;
   font-weight: 500;
   display: inline-block;
@@ -241,27 +244,102 @@ height: 100vh;
 .footer-links ul li a {
   font-size: 18px;
   text-decoration: none;
-  color: #BBBBBB;
+  color: #060606;
   display: block;
   margin-bottom: 15px;
   transition: all .3s ease;
 }
 .footer-links ul li a:hover{
-  color: #FEFEFE;
+  color: #060606;
   padding-left: 6px;
 }
 
 .footer-title {
 display: flex;
 flex-direction: row;
+color: #050505;
 }
 h3{
-  text-align: right;
-  font-size: 10px;
+  text-align: center;
+  font-size: 40px;
+  margin: 40px;
+  color: #ffffff;
 }
 .eti{
   margin: 10px;
   padding-right: 10px;
   text-align: right;
   font-size: 10px;
+  color: #050505;
+}
+
+header{
+  padding: 20px;
+  color: rgb(251, 173, 173);
+  text-align: right;
+  background: rgb(218, 215, 215);
+  font-size: 2em;
+}
+section{
+  display: flex;
+}
+article{
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+} article {
+  display: inline-block; /* Coloca los artículos uno al lado del otro */
+  vertical-align: top; /* Alinea la parte superior de los artículos */
+  width: 25%; /* Establece el ancho de cada artículo al 25% del contenedor */
+  padding: 10px; /* Espaciado entre los artículos (opcional) */
+  box-sizing: border-box; /* Incluye el padding en el ancho del artículo */
+  text-align: center; /* Centra el contenido del artículo */
+}
+
+/* Estilo para las imágenes */
+article img {
+  max-width: 100%; /* Establece un ancho máximo del 100% para las imágenes */
+  height: auto; /* Mantiene la proporción de aspecto original de las imágenes */
+}
+#articulo-1{
+  
+}
+#articulo-2{
+  
+}
+#articulo-3{
+ 
+  
+}
+#articulo-3{
+  
+}
+p{
+  text-align: justify;
+}
+h1, h2{
+  text-align: center;
+  color: #0a0a0a;
+}
+img{
+  width: 650px;
+}
+a{
+  color: blue;
+}
+
+.iconos-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente los íconos */
+        align-items: center;
+}
+
+/* Estilo para cada ícono */
+.icono {
+  text-align: center;
+  flex: 20; /* Distribuye el espacio disponible entre los íconos */
+  padding: 3px; /* Espaciado entre los íconos (opcional) */
+  font-size: 30px; /* Cambia este valor para ajustar el tamaño de los íconos */
+  color: #000000;
+  margin: 0 10px; /* Ajusta el margen horizontal entre los íconos */
 }
