@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Título de la Página</title>
+  <title>Microsoft Office</title>
   <link rel="stylesheet" href="CSS/estilos1.css">
   <script src="https://kit.fontawesome.com/4f29924acd.js" crossorigin="anonymous"></script>
   
@@ -60,16 +60,16 @@
             <td colspan="4"><h1 style="text-align: center;">COMPUTADORAS</h1></td>
           </tr>
           <tr>
-            <td style="vertical-align: top; text-align: center;">
-              <img id="im1" src="Images/comp1.jpg" alt="Imagen 1" >
-              <p>Microsoft Surface Book 2 incluye un procesador Intel Quad Core 
+            <td style="vertical-align: top; text-align: center;" rowspan="2">
+                <img id="im1" src="Images/comp1.jpg" alt="Imagen 1" >
+                <p>Microsoft Surface Book 2 incluye un procesador Intel Quad Core 
                 i7 de 8ª generación, 1 TB de almacenamiento, 16 GB de RAM y hasta 
                 17 horas de reproducción de video. Rendimiento gráfico mejorado 
                 con GPU discreta NVIDIA GeForce GTX 1060 con memoria gráfica GDDR5 
                 de 6 GB. El libro de superficie más rápido hasta el momento, 
                 con 4 veces más potencia</p>
             </td>
-            <td style="vertical-align: top; text-align: center;">
+            <td style="vertical-align: top; text-align: center;" rowspan="2">
               <img id="im2" src="Images/comp2.jpg" alt="Imagen 2" >
               <p>Intel Core i5 10ª generación 1035G1 (1.00GHz) 4 GB LPDDR4X 
                 Memoria 64 GB eMMC. Windows 10 Home en modo S para ofrecerte las 
@@ -81,7 +81,7 @@
                 que usas a diario, materiales de primera calidad y una selección de 
                 colores imprescindibles harán de este tu portátil favorito.</p>
             </td>
-            <td style="vertical-align: top; text-align: center;">
+            <td style="vertical-align: top; text-align: center;" rowspan="2">
               <img id="im3" src="Images/comp3.jfif" alt="Imagen 3" >
               <p>El portátil Microsoft Surface Pro 8 tiene 
                 una pantalla de 10,5 pulgadas con una resolución de 1920 x 1280 
@@ -95,7 +95,7 @@
                 equipada con una cámara web de 5MP para facilitar diversas 
                 actividades de productividad que requieren una cámara.</p>
             </td>
-            <td style="vertical-align: top; text-align: center;">
+            <td style="vertical-align: top; text-align: center;" rowspan="2">
               <img id="im4" src="Images/comp4.jpg" alt="Imagen 4" >
               <p>La característica más llamativa de este equipo es su CPU. 
                 Y es que no se trata de un procesador x86 diseñado por Intel 
@@ -112,7 +112,108 @@
       </div>
     <br>
 
+    <div style="background-color: rgb(223, 222, 222); padding: 10px 20px; text-align: center;">
+        <h1>OFFICE</h1>
+        <p>Microsoft Office ha estado en todos los aspectos de nuestra vida 
+            tecnológica. Hoy en día es común escuchar de múltiples procesadores 
+            de texto, hojas de cálculo y programas para realizar presentaciones, 
+            y Microsoft Office fue el precursor de todos ellos. A pesar de la 
+            presencia de otras aplicaciones y programas, Microsoft 365 continúa 
+            vigente ofreciendo múltiples soluciones para el trabajo y la 
+            productividad personal y empresarial. Microsoft Office ofrece múltiples 
+            soluciones para el trabajo de oficina en el hogar y las empresas. 
+            Sirve para crear, acceder y compartir documentos online entre los 
+            usuarios de cada programa de la paquetería Office. En el caso de 
+            Microsoft Office para empresas, también permite mantener una 
+            comunicación entre todos los usuarios de los programas y el 
+            trabajo colaborativo. Con la aparición de Microsoft 365 (antes 
+            llamado Office 365), la paquetería de Microsoft Office ahora 
+            incluye funcionalidades de la nube, según el tamaño de la empresa e 
+            incluso para uso privado. Hoy en día, Microsoft Office facilita 
+            que las empresas puedan seguir operando con cientos de colaboradores 
+            en trabajo remoto, como señala Luis Emilio Ruiz, profesor de nuestro 
+            curso online de Office 365: trabajo en equipo: “La transformación 
+            digital ha creado una nueva forma de trabajar, más abierta y 
+            colaborativa, la barrera del espacio de trabajo se ha eliminado, 
+            permitiéndonos trabajar desde cualquier lugar de forma segura y 
+            efectiva. Microsoft 365 cuenta con la más completa colección de 
+            herramientas para la colaboración y el trabajo en equipo”.</p>
+            <img src="Images/logoOffice.png" style="text-align: center;">
+    </div>
+
+    <div class="iconos-container">
+        <div class="icono">
+            <i class="fa-solid fa-file-word" style="color: #0d45a5;"></i>
+            <p style="font-size: 20px; text-align: center;">Word</p>
+        </div>
+        <div class="icono">
+            <i class="fa-solid fa-file-excel" style="color: #016f31;"></i>
+            <p style="font-size: 20px; text-align: center;">Excel</p>
+        </div>
+        <div class="icono">
+            <i class="fa-solid fa-file-powerpoint" style="color: #ff5900;"></i>
+            <p style="font-size: 20px; text-align: center;">PowerPoint</p>
+        </div>
+        <div>
+            <a href="">subir</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="formulario">
+            <h1>Cuéntanos sobre ti...</h1>
+    <form action="/tu_script_de_procesamiento.php" method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+        </div>
+        <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+        </div>
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="producto">Producto de interés:</label>
+            <select id="producto" name="producto">
+                <option value="microsoft365">Microsoft 365</option>
+                <option value="office">Office</option>
+                <option value="windows">Windows</option>
+                <option value="surface">Surface</option>
+                <option value="xbox">Xbox</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="archivo">Adjuntar archivo:</label>
+            <input type="file" id="archivo" name="archivo">
+        </div>
+        <div class="form-group">
+            <label for="opciones">Que prefieres:</label>
+            <input type="checkbox" id="opciones1" name="opciones[]" value="opción1">
+            <label for="opciones1">Word</label>
+            <input type="checkbox" id="opciones2" name="opciones[]" value="opción2">
+            <label for="opciones2">PowerPoint</label>
+            <input type="checkbox" id="opciones3" name="opciones[]" value="opción3">
+            <label for="opciones3">Otra</label>
+        </div>
+        <div class="form-group">
+            <label for="terminos">Acepto los términos y condiciones:</label>
+            <input type="checkbox" id="terminos" name="terminos" required>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
     
+    </div>
+    
+
 
   <!-- Incluye el pie de página igual al de la página index -->
   <footer class="footer">
