@@ -194,18 +194,17 @@ to {opacity: 1}
 body {
 width: 100%;
 background-color: #fcfdff;
-font-family: sans-serif;
+font-family: 'Outfit', sans-serif;
 text-transform: capitalize;
-font-family: Verdana;
-            padding: 0px;
-            margin: 0px;
+padding: 0px;
+margin: 0px;
 }
 
 .title-first-name {
 padding: 10px;
 font-weight: 200;
 color: #000000;
-font-family: "Raleway", sans-serif;
+font-family: 'Outfit', sans-serif;
 font-size: 10px;
 }
 
@@ -214,7 +213,7 @@ font-size: 10px;
 font-size: 10px;
 font-weight: 200;
 color: #fefefe;
-font-family: "Raleway", sans-serif;
+font-family: 'Outfit', sans-serif;
 }
 
 #footer {
@@ -223,6 +222,7 @@ flex-direction: row;
 padding: 80px 0;
 background-color: #ababac;
 height: 100vh;
+
 }
 .footer-row{
   display: flex;
@@ -239,7 +239,7 @@ height: 100vh;
   font-weight: 500;
   display: inline-block;
   padding-bottom: 10px;
-  display: inline-block;
+
 }
 .footer-links ul li a {
   font-size: 18px;
@@ -255,8 +255,9 @@ height: 100vh;
 }
 
 .footer-title {
+  text-align: right;
 display: flex;
-flex-direction: row;
+flex-direction:column;
 color: #050505;
 }
 h3{
@@ -268,9 +269,16 @@ h3{
 .eti{
   margin: 10px;
   padding-right: 10px;
-  text-align: right;
   font-size: 10px;
   color: #050505;
+  display: inline-block; /* Cambia la visualización a "inline-block" */
+  text-align: right; /* Alinea el texto a la izquierda dentro de "eti" */
+  margin-right: 10px;
+}
+.eti {
+  display: inline-block; /* Cambia la visualización a "inline-block" */
+  text-align: left; /* Alinea el texto a la izquierda dentro de "eti" */
+  margin-right: 10px; /* Espaciado entre los elementos con clase "eti" (opcional) */
 }
 
 header{
@@ -334,6 +342,14 @@ a{
         align-items: center;
 }
 
+/*Aqui van los etilos del boton ancla*/
+.ancla1 {
+  color: rgb(105, 141, 218);
+  cursor: pointer;
+  font-family: 'Outfit', sans-serif;
+  text-align: right;
+}
+
 /* Estilo para cada ícono */
 .icono {
   text-align: center;
@@ -342,4 +358,27 @@ a{
   font-size: 30px; /* Cambia este valor para ajustar el tamaño de los íconos */
   color: #000000;
   margin: 0 10px; /* Ajusta el margen horizontal entre los íconos */
+}
+.footer-title span{
+  text-align: left;
+}
+
+#imagenes1{
+  width: 50px;
+  height: 220px;
+}
+#imagenes2{
+  width: 50px;
+  height: 220px;
+}
+#imagenes3{
+  width: 50px;
+  height: 220px;
+}
+#imagenes4{
+  width: 50px;
+  height: 220px;
+}
+ul{
+  list-style: none;
 }
