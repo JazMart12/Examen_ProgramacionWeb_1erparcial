@@ -331,6 +331,17 @@ h1, h2{
 }
 img{
   width: 650px;
+  
+}
+.text-container {
+  position: absolute;
+  bottom: 0; /* Ajusta esta propiedad para controlar la posición vertical del texto */
+  left: 0; /* Ajusta esta propiedad para controlar la posición horizontal del texto */
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el texto */
+  color: white; /* Color del texto */
+  padding: 10px; /* Espacio de relleno alrededor del texto */
+  width: 100%; /* Ancho igual al de la imagen */
+  box-sizing: border-box; /* Incluye el padding en el ancho */
 }
 a{
   color: blue;
@@ -381,4 +392,21 @@ a{
 }
 ul{
   list-style: none;
+}
+.button {
+  background-color: #5191d5; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  padding: 10px 20px; /* Espaciado interno del botón (arriba/abajo, izquierda/derecha) */
+  text-decoration: none; /* Eliminar subrayado de los enlaces */
+  border-radius: 5px; /* Bordes redondeados */
+  margin-right: 10px; /* Espaciado derecho entre botones (ajusta según sea necesario) */
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el cursor por encima */
+}
+
+#per{
+  
 }
