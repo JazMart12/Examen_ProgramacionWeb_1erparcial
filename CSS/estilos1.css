@@ -197,7 +197,7 @@ background-color: #fcfdff;
 font-family: 'Outfit', sans-serif;
 text-transform: capitalize;
 padding: 0px;
-margin: 0px;
+margin: 1px;
 }
 
 .title-first-name {
@@ -407,6 +407,27 @@ ul{
   background-color: #0056b3; /* Color de fondo del botón al pasar el cursor por encima */
 }
 
-#per{
-  
+#im1{
+  width: 350px;
+  height: 450px;
+}
+#im2{
+  width: 350px;
+  height: 450px;
+}
+#im3{
+  width: 350px;
+  height: 450px;
+}
+#im4{
+  width: 350px;
+  height: 450px;
+}
+
+
+#tablec{
+  width: 95px;
+  border-color: #050505;
+  border: ridge;
+  text-align: center;
 }
