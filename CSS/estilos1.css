@@ -556,3 +556,64 @@ input[type="submit"] {
   padding: 15px 30px;
   cursor: pointer;
 }
+
+.image-effect1 {
+  /* Agrega aquí los estilos o efectos deseados para la primera imagen */
+  border: 2px solid red; /* Ejemplo: borde rojo */
+}
+
+/* Efecto para la segunda imagen */
+.image-effect2 {
+  /* Agrega aquí los estilos o efectos deseados para la segunda imagen */
+  box-shadow: 5px 5px 10px #888888; /* Ejemplo: sombra */
+}
+
+/* Efecto para la tercera imagen */
+.image-effect3 {
+  /* Agrega aquí los estilos o efectos deseados para la tercera imagen */
+  box-shadow: 5px 5px 10px #888888; /* Ejemplo: escala aumentada */
+}
+
+/* Efecto para la cuarta imagen */
+.image-effect4 {
+  /* Agrega aquí los estilos o efectos deseados para la cuarta imagen */
+  filter: grayscale(100%); /* Ejemplo: escala de grises */
+}
+
+.barra-men1 a {
+  /* Agrega tus estilos personalizados aquí */
+  color: #FF0000; /* Ejemplo: color rojo */
+  font-weight: bold;
+}
+
+/* Estilos para los elementos <li> dentro de la lista con clase "social-media" */
+.social-media li {
+  /* Agrega tus estilos personalizados aquí */
+  margin: 10px; /* Ejemplo: margen de 10px */
+  list-style: none; /* Ejemplo: quitar viñetas de lista */
+}
+
+.icon-group{
+  height: 50px;
+  width: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: width 1s ease;
+}
+.icon-group:hover{
+  width: 175px;
+  justify-content: space-around;
+}
+.icon-group .icon-txt{
+  width: 0;
+  overflow: hidden;
+}
+
+.icon-group:hover .icon-txt{
+  width: fit-content;
+  transition: width 1s ease;
+}
+.icon-group .icon-bg{
+  position: absolute;
+  clip-path: circle(50% at -110% 60%);
+}
